@@ -1,0 +1,17 @@
+[Unit]
+Description=Xray Debug Vars Prometheus Exporter
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+ExecStart=/usr/bin/python3 /usr/local/bin/xray-debug-exporter.py
+
+Restart=always
+RestartSec=5
+
+User=root
+
+[Install]
+WantedBy=multi-user.target

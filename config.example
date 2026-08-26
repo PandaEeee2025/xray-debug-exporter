@@ -1,0 +1,14 @@
+# Xray Debug Exporter configuration
+
+# Xray debug endpoint
+XRAY_URL=http://127.0.0.1:11111/debug/vars
+
+# Address where Prometheus exporter will listen
+# Installer will automatically detect Tailscale IPv4
+LISTEN_IP=127.0.0.1
+
+# Prometheus exporter port
+LISTEN_PORT=9101
+
+# How often to update data from Xray
+UPDATE_INTERVAL=15

@@ -57,8 +57,4 @@ No modification of Xray configuration is required beyond enabling the `/debug/va
 
 Install:
 
-cd /opt
-sudo git clone https://github.com/PandaEeee2025/xray-debug-exporter.git
-sudo chown -R "$USER":"$USER" /opt/xray-debug-exporter
-cd /opt/xray-debug-exporter
-sudo ./install.sh
+curl -fsSL https://raw.githubusercontent.com/PandaEeee2025/xray-debug-exporter/main/install.sh | sudo bash

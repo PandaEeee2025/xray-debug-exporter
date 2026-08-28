@@ -28,6 +28,10 @@ No modification of Xray configuration is required beyond enabling the `/debug/va
 
 ---
 
+## Install
+
+curl -fsSL https://raw.githubusercontent.com/PandaEeee2025/xray-debug-exporter/main/install.sh | sudo bash
+
 ## Architecture
 
 ```text
@@ -54,7 +58,3 @@ No modification of Xray configuration is required beyond enabling the `/debug/va
                      │  Grafana  │
                      └───────────┘
 
-
-Install:
-
-curl -fsSL https://raw.githubusercontent.com/PandaEeee2025/xray-debug-exporter/main/install.sh | sudo bash

@@ -1,6 +1,4 @@
 # Xray Debug Exporter — install.sh v1.0.1
-
-```bash
 #!/bin/bash
 
 set -euo pipefail
@@ -920,4 +918,3 @@ echo "User:"
 echo "  ${EXPORTER_USER}"
 
 echo
-```
